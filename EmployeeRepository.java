@@ -1,0 +1,9 @@
+package com.example.secureemployeeapp.repository;
+
+import com.example.secureemployeeapp.entity.Employee;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface EmployeeRepository extends JpaRepository<Employee, Long> {
+
+}
+
